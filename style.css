@@ -20,10 +20,12 @@ div{
 
 #billy{
     color: darkred;
+    padding: 20px;
 }
 
 #bob{
     color: darkgreen;
+    padding: 20px;
 }
 
 .two{
@@ -46,7 +48,6 @@ div{
     text-decoration: line-through;
 }
 
-#bob a + a{
-    text-decoration: underline;
-    text-decoration: overline;
+#bob > .two a{
+    text-decoration: underline overline;
 }
